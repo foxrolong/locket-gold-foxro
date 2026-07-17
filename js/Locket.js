@@ -21,7 +21,7 @@ var locket02 = {
   store: "app_store"
 };
 
-var dohungx = {
+var foxrolong = {
   grace_period_expires_date: null,
   purchase_date: "2024-07-28T01:04:17Z",
   product_identifier: "com.locket02.premium.yearly",
@@ -34,16 +34,16 @@ if (match) {
   let [e, s] = mapping[match];
   
   if (s) {
-    dohungx.product_identifier = s;
+    foxrolong.product_identifier = s;
     obj.subscriber.subscriptions[s] = locket02;
   } else {
     obj.subscriber.subscriptions["com.locket02.premium.yearly"] = locket02;
   }
 
-  obj.subscriber.entitlements[e] = dohungx;
+  obj.subscriber.entitlements[e] = foxrolong;
 } else {
   obj.subscriber.subscriptions["com.locket02.premium.yearly"] = locket02;
-  obj.subscriber.entitlements.pro = dohungx;
+  obj.subscriber.entitlements.pro = foxrolong;
 }
 
 $done({ body: JSON.stringify(obj) });
