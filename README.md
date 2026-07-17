@@ -19,7 +19,7 @@
 
 ## <h2 align="center">🚀 Hướng dẫn sử dụng</h2>
 ### Cách 1: Tải trực tiếp
-1. **Truy cập repo** [repo]().
+1. **Truy cập repo** [repo](https://github.com/foxrolong/locket-gold-foxro).
 2. **Tải về** Danh sách Module.
 
 ### Cách 2: Thêm bằng URL
